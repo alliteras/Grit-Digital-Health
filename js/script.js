@@ -82,6 +82,15 @@ $( document ).ready(function() {
 	};
 	teamControl();
 	
+	//about section fix
+	var aboutScroll = function() {
+		if(window.location.href.indexOf("about") > -1) {
+		   $("html, body").animate({ scrollTop: $('#about').offset().top }, 1000);
+		}
+	};
+	aboutScroll();
+	
+	
 	var scrollWatch = function() {
 		//product page
 		if ($('.product-feature').length) {		
@@ -94,7 +103,7 @@ $( document ).ready(function() {
 				var bottom_of_window = $(window).scrollTop() + $(window).height();
 				
 				/* If the object is completely visible in the window, fade it in */
-				if( bottom_of_window > bottom_of_object - 300 ){
+				if( bottom_of_window > bottom_of_object){
 					$(this).addClass('active');
 				}else{
 					//$(this).removeClass('active');
@@ -451,7 +460,7 @@ $( document ).ready(function() {
 				 initialize();
 				 mobileAnchors();
 				 scrollWatch();
-				 //parallax();
+				 aboutScroll();
 			 }
         }).data('smoothState');
 	 });

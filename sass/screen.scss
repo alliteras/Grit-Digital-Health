@@ -77,17 +77,13 @@ p{
 	-webkit-transition: opacity 0.3s, -webkit-transform 0.3s;
 	-moz-transition: opacity 0.3s, -moz-transform 0.3s;
 	transition: opacity 0.3s, transform 0.3s;
-	-webkit-transform: translateY(10px);
-	-moz-transform: translateY(10px);
-	transform: translateY(10px);
+	@include translateY(10px);
 }
 
 .text-link a:hover::after,
 .text-link a:focus::after{
 	opacity: 1;
-	-webkit-transform: translateY(0px);
-	-moz-transform: translateY(0px);
-	transform: translateY(0px);
+	@include translateY(0px);
 }
 .text-link.active span{
 	position:relative;
@@ -136,8 +132,7 @@ p{
 	background: transparent;
 	-webkit-transition-delay: 0.3s;
 	transition-delay: 0.3s;
-	-webkit-transform: translateY( calc(100% - 1px) );
-	transform: translateY( calc(100% - 2px) );
+	@include translateY( calc(100% - 2px) );
 }
 
 .about .link-curtain a::before,
@@ -155,14 +150,12 @@ p{
 .link-curtain a:focus::before,
 .link-curtain a:hover::after,
 .link-curtain a:focus::after {
-	-webkit-transform: translateX(0);
-	transform: translateX(0);
+	@include translateX(0);
 }
 
 .link-curtain a::after {
 	background: rgba(128,129,115,0.2);
-	-webkit-transform: translateY(-100%);
-	transform: translateY(-100%);
+	@include translateY(-100%);
 	z-index:-1;
 }
 
@@ -235,7 +228,7 @@ section.hero{
 		margin:0 auto;
 		position:relative;
 		top:50%;
-		transform:translateY(-50%);
+		@include translateY(-50%);
 	}
 	h1{
 		color: #ffffff;
@@ -279,7 +272,7 @@ section.skylight{
 	background-position:center 0px;
 	height:540px;
 	width:100%;
-	margin-top:-3px;
+	margin-top:-5px;
 }
 
 section.product-hero{
@@ -289,7 +282,7 @@ section.product-hero{
 	height:auto;
 	background-image:none;
 	.product-hero-wrapper{
-		transform:translateY(20px);
+		@include translateY(20px);
 		transition:all ease .75s .25s;
 		opacity:0;	
 	}
@@ -319,7 +312,7 @@ section.product-hero{
 		display:block;
 		max-width:1400px;
 		margin:0 auto;
-		transform:translateY(20px);
+		@include translateY(20px);
 		transition:all ease .75s;
 		opacity:0;	
 	}
@@ -393,7 +386,7 @@ section.contact{
 		margin-left:90px;
 		position:relative;
 		top:50%;
-		transform:translateY(-50%);
+		 @include translateY(-50%);
 		
 		.line{
 			position:absolute;
@@ -542,6 +535,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 	transition:ease all .25s;
 	border:none;
 	cursor:pointer;
+	font-family:$font-roman;
 }
 .button:hover{
 	background-color: #ebebeb;
@@ -556,22 +550,36 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 }
 
 
-section.product-feature.YOU{
+section.YOU{
+	padding:125px 0px 125px;
+	clear:both;
 	position:relative;
 	img{
 		width:400px;
 	}
 	.left {
     margin: 0 auto;
-		width: 80%;
+	display:inline-block;
+		img{
+			width:70%;
+			margin:0 auto;
+			display:block;
+			@include translateX(-50px);
+			max-width:350px;	
+		}
+		img.active{
+			@include translateX(0px)	
+		}
+
 	}
 	.right{
 		position: absolute;
 		right: 0;
 		top: 50%;
-		transform: translateY(-50%);
+		@include translateY(-50%);
 		width: 50%;		
 		z-index:20;
+		display:inline-block;
 		.right-wrap{
 			max-width:400px;	
 		}
@@ -599,7 +607,7 @@ section.team{
 		padding:75px 0px;
 		margin:0px auto;
 		max-width:1200px;
-		transform:translateY(20px);
+		@include translateY(20px);
 		transition:all ease .75s;
 	}
 	a{
@@ -623,6 +631,7 @@ section.team{
 		}	
 	}
 	.team-member:hover .title-wrapper span{
+		-webkit-animation:lineSlide cubic-bezier(.19,.82,.54,.88) .8s;
 		animation:lineSlide cubic-bezier(.19,.82,.54,.88) .8s;
 	}
 	.member-content{
@@ -700,7 +709,7 @@ section.team-overlay{
 			content: "";
 			display: block;
 			height: 100%;
-			transform: translateX(0%);
+			@include translateX(0%);
 			width: 100%;
 			transition:all cubic-bezier(.19,.82,.54,.88) .5s .75s;
 		}
@@ -749,7 +758,7 @@ section.team-overlay{
 			background-image:url(../img/Kyle_Detail.jpg);	
 	}
 	.ross .left .pic{
-			background-image:url(../img/Andrew_Detail.jpg);	
+			background-image:url(../img/Ross_Detail.jpg);	
 	}
 	
 	.overlay-member{
@@ -778,14 +787,16 @@ section.team-overlay{
 			text-transform:uppercase;
 			font-family: $font-bold;
 			font-size:30px;
-			margin-top:-22px;
+			margin-top:0px;
 			line-height:26px;
 			padding-bottom:25px;
 			position:relative;
+			width:80%;
 		}
 		
 		div.line{
-			position:absolute;
+			position:relative;
+			float:left;
 			left:0px;
 			top:5px;
 			background-color: $color-drkgreen;
@@ -810,11 +821,11 @@ section.team-overlay{
 		}
 		
 		.close{
-			position:absolute;
-    		right: 0%;
-    		top: 0%;
-			width:35px;
-			height:35px;
+			float: right;
+			height: 35px;
+			position: relative;
+			vertical-align: top;
+			width: 35px;
 			
 			img{
 				width:100%;	
@@ -862,7 +873,7 @@ section.grid{
 	.hero.active{
 		height:60%;
 		opacity:1;
-		transform: translateY(-10%);
+		@include translateY(-10%);
 	}
 	.support1{
 		width:50%;
@@ -875,7 +886,7 @@ section.grid{
 	}
 	.support1.active{
 		opacity:1;
-		transform: translateY(-10%);
+		@include translateY(-10%);
 	}
 	.support2{
 		@extend .support1;
@@ -889,8 +900,7 @@ section.grid{
 		img{
 			width:30%;
 			top:60%;
-			-webkit-transform:translateY(-50%);
-			transform:translateY(-50%);
+			@include translateY(-50%);
 			position:relative;
 			max-width:90px;
 			min-width:70px;
@@ -920,8 +930,7 @@ section.about{
 	div{
 		position:relative;
 		top:50%;
-		-webkit-transform: translateY(-50%);	
-		transform: translateY(-50%);	
+		@include translateY(-50%);	
 	}
 	.button{
 		cursor: pointer;
@@ -998,47 +1007,36 @@ footer{
 }
 
 #main .fadeup-in{
-	transform:translateY(0px);
+	@include translateY(0px);
 	opacity:1;
 }
 
 /*animation declarations*/
 @-webkit-keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @keyframes fadeIn {
-    0% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
+    0% {opacity: 0;}
+    100% {opacity: 1;}
 }
 
 @-webkit-keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
 
 @keyframes fadeOut {
-    0% {
-        opacity: 1;
-    }
-    100% {
-        opacity: 0;
-    }
+    0% {opacity: 1}
+    100% {opacity: 0;}
 }
-
+@-webkit-keyframes lineSlide {
+0% { @include translateX(0); } 
+30% { opacity: 0; } 80% { @include translateX(400px); } 
+81% { @include translateX(-300px); opacity: 0;} 
+100% { @include translateX(0); opacity: 1;} 
+}
 @keyframes lineSlide {
 0% { @include translateX(0); } 
 30% { opacity: 0; } 80% { @include translateX(400px); } 
@@ -1046,21 +1044,17 @@ footer{
 100% { @include translateX(0); opacity: 1;} 
 }
 
+@-webkit-keyframes loader{
+	0% {@include translateX(-25px); width: 5%;}
+	40% {width: 25%;}
+	80% {width: 5%;}
+	100% {@include translateX(200px); width: 5%;}
+}
 @keyframes loader{
-	0% {
-    transform: translateX(-25px);
-    width: 5%;
-	}
-	40% {
-		width: 25%;
-	}
-	80% {
-		width: 5%;
-	}
-	100% {
-		transform: translateX(200px);
-		width: 5%;
-	}
+	0% {@include translateX(-25px); width: 5%;}
+	40% {width: 25%;}
+	80% {width: 5%;}
+	100% {@include translateX(200px); width: 5%;}
 }
 
 .loader{
@@ -1083,6 +1077,7 @@ footer{
 		height:100%;
 		width:15%;
 		background-color:$color-lime;
+		-webkit-animation:loader infinite .65s;	
 		animation:loader infinite .65s;	
 	}
 }
@@ -1093,7 +1088,6 @@ footer{
     transition-timing-function: ease-in;
     -webkit-animation-fill-mode: both;
     animation-fill-mode: both;
-	height:auto;
 	padding-top:0px;
 	transition:opacity ease .5s, padding-top ease .85s;
 	background-color:#ffffff;
@@ -1169,7 +1163,7 @@ footer{
 		margin-top:-3px;
 		div{
 			top:0%;
-			transform:none;
+			@include translateY(0%);
 	}
 		
 	}
@@ -1196,16 +1190,13 @@ footer{
 
 	
 	section.product-feature.YOU {
-		padding:75px 0px 0px;
+		padding:25px 0px 0px;
 		position:relative;
+		text-align:center;
 		.left {
-			left: 50%;
 			margin: 0 auto;
-			padding-top: 30px;
-			position: absolute;
 			text-align: center;
 			top: 0;
-			@include translateX(-58%);
 			width: 60%;
 			
 			img{
@@ -1214,9 +1205,11 @@ footer{
 		}
 		.right{
 			float: none;
-			margin: 70% auto 0;
+			margin: 40px 5%;
+			position: relative;
+			text-align: left;
+			@include translateY(0px);
 			width: 85%;
-			position:relative;
 			.right-wrap{
 				max-width:100%;	
 			}	
@@ -1387,7 +1380,11 @@ footer{
 	}
 	section.contact{
 		padding:5%;
+		.contact-wrapper{
+			margin-left:0px;	
+		}
 	}
+	
 	section.team .team-member {
 		width: 49%;
 	}
@@ -1411,10 +1408,10 @@ footer{
 	section.team-overlay .right {
 		padding: 320px 5% 40px;
 		width: 100%;
+		left:0;
 	}
 	
 	section.team-overlay .slide .left {
-		@include translateX(100%);
 	}
 	
 	section.product-hero h2 {
@@ -1479,13 +1476,13 @@ footer{
 	.button-wrapper {
 		padding-left:5%;
 	}
+	footer .newsletter input.email{
+		width:100%;		
+	}
 	
 }
 
 @media screen and (max-width: 450px) {
-	input.email{
-		width:100%;		
-	}
 	
 	section.team .team-member {
 		width: 100%;
