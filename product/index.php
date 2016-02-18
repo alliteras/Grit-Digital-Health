@@ -101,9 +101,9 @@
                     <img src="../img/you-reality-check.jpg" alt="YOU reality check" />
                 </div>
             </section> 
-            <section class="product-feature">
+            <section class="product-feature brochure">
                     <div class="right desktop">
-                        <img src="../img/grit_product-mobile.png" alt="YOU mobile"/>
+                        <img src="../img/Grit_YOU_Brochure_COMP.png" alt="YOU Brochure"/>
                     </div>
                     <div class="left">
                         <div class="spacer"></div>
@@ -116,7 +116,7 @@
                         </div>
                     </div>
                     <div class="right mobile">
-                        <img src="../img/grit_product-mobile.png" alt="YOU mobile"/>
+                        <img src="../img/Grit_YOU_Brochure_COMP.png" alt="YOU Brochure"/>
                     </div>
            </section> 
            <div class="clear"></div>

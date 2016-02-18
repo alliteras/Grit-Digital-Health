@@ -472,6 +472,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/img\/grit-digital-health-you-portal-mobile.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 93695,
+		"inputAbbreviatedPath": "\/img\/grit-digital-health-you-portal-mobile.png",
+		"outputAbbreviatedPath": "\/img\/grit-digital-health-you-portal-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/img\/grit-digital-health-you-portal.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -490,6 +501,17 @@
 		"initialSize": 266041,
 		"inputAbbreviatedPath": "\/img\/grit_product-mobile.png",
 		"outputAbbreviatedPath": "\/img\/grit_product-mobile.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/Grit_YOU_Brochure_COMP.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152630,
+		"inputAbbreviatedPath": "\/img\/Grit_YOU_Brochure_COMP.png",
+		"outputAbbreviatedPath": "\/img\/Grit_YOU_Brochure_COMP.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

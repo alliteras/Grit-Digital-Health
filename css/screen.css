@@ -420,13 +420,16 @@ section.product-feature {
       width: 100%;
       opacity: 0;
       transition: all ease .65s;
-      margin-top: -50px; }
+      -webkit-transform: translateY(-50px);
+      -moz-transform: translateY(-50px);
+      -ms-transform: translateY(-50px);
+      transform: translateY(-50px); }
     section.product-feature .right img.active {
       opacity: 1;
-      -webkit-transform: translateY(50px);
-      -moz-transform: translateY(50px);
-      -ms-transform: translateY(50px);
-      transform: translateY(50px); }
+      -webkit-transform: translateY(0px);
+      -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+      transform: translateY(0px); }
   section.product-feature .left {
     width: 50%;
     position: relative;
@@ -474,6 +477,13 @@ section.product-feature {
   background: -webkit-linear-gradient(top, #e8e8e8 0%, white 100%);
   background: linear-gradient(to bottom, #e8e8e8 0%, white 100%);
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#ffffff',GradientType=0 ); }
+
+.product-feature:last-of-type {
+  margin-top: -100px; }
+  .product-feature:last-of-type h4 {
+    padding-top: 50px; }
+  .product-feature:last-of-type .spacer {
+    top: 54px; }
 
 .button {
   background-color: #e2e2e2;
@@ -1089,9 +1099,6 @@ footer {
     footer p {
       left: 50%; }
 
-  section.product-feature .right img {
-    margin-bottom: 50px; }
-
   section.product-feature {
     padding: 30px 0; }
 
@@ -1132,7 +1139,9 @@ footer {
     display: block; }
 
   .mobile li {
-    width: 95%; }
+    width: 95%;
+    font-size: 17px;
+    line-height: 45px; }
 
   .logo {
     text-align: left;
@@ -1156,7 +1165,10 @@ footer {
     top: 0px; }
 
   nav.open {
-    right: 0px; }
+    -webkit-transform: translateX(-335px);
+    -moz-transform: translateX(-335px);
+    -ms-transform: translateX(-335px);
+    transform: translateX(-335px); }
 
   nav ul {
     border-top: thin solid #d7e033;
@@ -1297,7 +1309,8 @@ footer {
   section.product-feature .right, section.product-feature .left {
     width: 100%; }
   section.product-feature h4 {
-    padding-top: 0px; }
+    padding-top: 0px;
+    padding-bottom: 10px; }
   section.product-feature .spacer {
     top: 4px; }
   section.product-feature .left {
@@ -1326,7 +1339,11 @@ footer {
     line-height: 30px; }
 
   section.product-hero {
-    height: auto; }
+    height: auto;
+    overflow: hidden; }
+    section.product-hero img {
+      width: 130%;
+      margin: 0 auto 0 -15%; }
 
   .content-wrap.active {
     height: auto; }
@@ -1342,7 +1359,22 @@ footer {
     padding-left: 5%; }
 
   footer .newsletter input.email {
-    width: 100%; } }
+    width: 100%; }
+
+  section.hero, section.product-hero {
+    background-image: url(../img/grit-digital-health-you-portal-mobile.png);
+    background-color: #343434; }
+
+  section.product-hero {
+    background-image: none;
+    background-color: #F4F4F4; }
+    section.product-hero .product-hero-wrapper {
+      padding: 20px 10px; }
+
+  .product-feature:last-of-type {
+    margin-top: 0px; }
+    .product-feature:last-of-type h4 {
+      padding-top: 0px; } }
 @media screen and (max-width: 450px) {
   section.team .team-member {
     width: 100%; }

@@ -458,11 +458,12 @@ section.product-feature{
 			width:100%;
 			opacity:0;
 			transition:all ease .65s;	
-			margin-top:-50px;
+			@include translateY(-50px);
+
 		}
 		img.active{
 			opacity:1;
-			@include translateY(50px);
+			@include translateY(0px);
 		}
 	}
 	.left{
@@ -523,6 +524,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 }
 
 .product-feature:last-of-type {
+	margin-top:-100px;
+	h4{
+		padding-top:50px;
+	}
+	.spacer{
+		top: 54px;	
+	}
 }
 .button {
     background-color: #e2e2e2;
@@ -1182,7 +1190,6 @@ footer{
 	section.product-feature .left p:last-of-type{
 	}
 	section.product-feature .right img{
-		margin-bottom:50px;
 	}
 	section.product-feature {
 		padding: 30px 0;
@@ -1234,7 +1241,9 @@ footer{
 	}
 	
 	.mobile li{
-		width:95%;	
+		width:95%;
+		font-size:17px;
+		line-height:45px;	
 	}
 	.logo{
 		text-align:left;
@@ -1260,7 +1269,7 @@ footer{
 	}
 	
 	nav.open{
-		right:0px;
+		@include translateX(-335px);
 	}
 	
 	nav ul {
@@ -1424,6 +1433,7 @@ footer{
 		}
 		h4{
 			padding-top:0px;	
+			padding-bottom:10px;
 		}
 		.spacer{
 			top:4px;	
@@ -1462,6 +1472,12 @@ footer{
 	}
 	section.product-hero{
 		height:auto;	
+		overflow:hidden;
+		
+		img{
+			width:130%;
+			margin:0 auto 0 -15%;	
+		}
 	}
 	.content-wrap.active {
     	height: auto;
@@ -1479,6 +1495,25 @@ footer{
 	footer .newsletter input.email{
 		width:100%;		
 	}
+	section.hero{
+		background-image:url(../img/grit-digital-health-you-portal-mobile.png);
+		background-color:$color-grey;
+	}
+	section.product-hero{
+		background-image:none;
+		background-color:#F4F4F4;
+		
+		.product-hero-wrapper{
+			padding:20px 10px;	
+		}
+	}
+	.product-feature:last-of-type {
+		margin-top:0px;
+		h4{
+			padding-top:0px;
+		}
+	}
+	
 	
 }
 
