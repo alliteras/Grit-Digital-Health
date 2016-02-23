@@ -38,7 +38,7 @@
                 <li class="text-link active"><span>TEAM</span></li>
                 <li><a href="../" data-target="0"><img src="../../img/GritLogo.svg" alt="grit logo"/></a></li>
                 <li class="text-link"><a href="../index.php#about" data-target="0">ABOUT</a></li>
-                <li class="text-link"><a href="../contact/" data-target="1">CONTACT</a></li>
+                <li class="text-link contact-link"><a href="../contact/" data-target="1">CONTACT</a></li>
             </ul>
             </nav>
             <a href="../index.php" class="mobile logo"><img src="../../img/GritLogo.svg" alt="grit logo"/></a>
@@ -53,7 +53,7 @@
                     <li><a href="../product/">PRODUCT</a></li>
                     <li><a href="">TEAM</a></li> 
                     <li><a href="../index.php#about">ABOUT</a></li>
-                    <li><a href="../contact/">CONTACT</a></li> 
+                    <li><a href="../contact/" class="contact-link">CONTACT</a></li> 
                 </ul>
             </nav>
         </header>
@@ -92,6 +92,26 @@
                 </div>
             </div>
         </a>
+        <a href="#team" class="team-member frank-select">
+        	<img src="../img/Frank_Thumb.jpg" alt="Frank A"/>
+            <div class="member-content">
+            	<h2>Frank<br />A.</h2>
+               <div class="title-wrapper">
+                <span></span>
+                <p>VP of Sales</p>
+               </div> 
+            </div>
+        </a>
+        <a href="#team" class="team-member ross-select">
+        	<img src="../img/Ross_Thumb.jpg" alt="Ross Szabo"/>
+            <div class="member-content">
+            	<h2>Ross<br />Szabo</h2>
+               <div class="title-wrapper">
+                    <span></span>
+                    <p>Mental Health Consultant</p>
+                </div>
+            </div>
+        </a>              
         <a href="#team" class="team-member mimi-select">
         	<img src="../img/Mimi_Thumb.jpg" alt="Mimi McFaul"/>
             <div class="member-content">
@@ -108,7 +128,7 @@
             	<h2>Brit<br />Tucker</h2>
                <div class="title-wrapper">
                     <span></span>
-                    <p>Senior Digital Producer</p>
+                    <p>Product Manager</p>
                 </div>
             </div>
         </a>
@@ -118,18 +138,8 @@
             	<h2>Andrew<br />Baker</h2>
                <div class="title-wrapper">
                     <span></span>
-                    <p>Creative Technology Director</p>
+                    <p>UX and Technology Director</p>
                 </div>
-            </div>
-        </a>
-        <a href="#team" class="team-member frank-select">
-        	<img src="../img/Frank_Thumb.jpg" alt="Frank A"/>
-            <div class="member-content">
-            	<h2>Frank<br />A.</h2>
-               <div class="title-wrapper">
-                <span></span>
-                <p>VP of Sales</p>
-               </div> 
             </div>
         </a>
         <a href="#team" class="team-member kyle-select">
@@ -138,20 +148,11 @@
             	<h2>Kyle<br />Thornburg</h2>
                <div class="title-wrapper">
                     <span></span>
-                    <p>Copywriter</p>
+                    <p>Account Manager</p>
                 </div>
             </div>
         </a>
-        <a href="#team" class="team-member ross-select">
-        	<img src="../img/Ross_Thumb.jpg" alt="Ross Szabo"/>
-            <div class="member-content">
-            	<h2>Ross<br />Szabo</h2>
-               <div class="title-wrapper">
-                    <span></span>
-                    <p>Mental Health Consultant</p>
-                </div>
-            </div>
-        </a>   		</div>
+   		</div>
   </section>
   <section class="team-overlay" id="team-overlay">
   	<div class="overlay-member joe">
@@ -214,7 +215,7 @@
             <div class="close"><a href=""><img src="../img/close.png" alt="close"/></a></div>
             <h2>Brit <br />Tucker</h2>
             <div class="line"></div>
-            <h3>Senior Digital Producer</h3>
+            <h3>Product Manager</h3>
             <p>From social content to comprehensive campaigns, Brit has seen the many sides of digital production. With a knack for keeping the consumer’s best interest in mind, she’s always thinking of new ways to fuse health and technology so that one is made better by the other. It only helps that Brit is able to bring her teachings from inside of the yoga studio to inside of the office, ensuring that the impact of wellbeing comes full-circle. </p>
             <p><strong>Shows her grittiness by</strong> vetting the latest wellness apps, conscious living documentaries and food fads before putting them to practice in her life—personally or professionally.</p>
                 </div>    	
@@ -228,7 +229,7 @@
             <div class="close"><a href=""><img src="../img/close.png" alt="close"/></a></div>
             <h2>Andrew <br />Baker</h2>
             <div class="line"></div>
-            <h3>Creative Technology Director</h3>
+            <h3>UX and Technology Director</h3>
             <p>Andrew savors the journey as much as the destination. Having traveled through more than 15 countries and more than 20 states, he knows that getting there is half the fun. It’s that joy of exploration that guides Andrew’s user-centered approach to digital. With a background in design and code, he lets research and brand strategy lead the way, creating digital experiences that foster curiosity and deep engagement.</p>
             <p><strong>His gets gritty by</strong> using curiosity like a compass to both uncover fresh and ensured ways to enhance digital experiences and to explore cities from the seat of his bike. </p>
                 </div>    	
@@ -256,7 +257,7 @@
             <div class="close"><a href=""><img src="../img/close.png" alt="close"/></a></div>
             <h2>Kyle<br />Thornburg</h2>
             <div class="line"></div>
-            <h3>Copywriter</h3>
+            <h3>Account Manager</h3>
             <p>Kyle believes that high quality communication can engage all the senses. For that reason, he can smell a cliché and sees promising opportunities when they arise. With a likeness for storytelling and popular culture, Kyle has long been drawn to media and technology. He’s is a journalist by trade, but loves the ring of “other duties as assigned” in a job title.</p>
             <p><strong>You can tell he’s got grit because</strong> he keeps endurance and goal-setting at the ready—whether he’s working or working out—in order to see a project to it’s fullest potential. </p>
                 </div>    	

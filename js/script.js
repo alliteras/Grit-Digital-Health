@@ -125,7 +125,7 @@ $( document ).ready(function() {
 				var bottom_of_window = $(window).scrollTop() + $(window).height();
 				/* If the object is completely visible in the window, fade it in */
 				if( bottom_of_window > bottom_of_object){
-					$('.grid .hero, .grid .support1, .grid .support2 img').addClass('active');
+					$('.grid .hero, .grid .support1, .grid .support2').addClass('active');
 				}else{
 					//$('.grid .hero, .grid .support1, .grid .support2 img').removeClass('active');
 				}

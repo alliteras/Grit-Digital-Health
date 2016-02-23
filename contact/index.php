@@ -38,7 +38,7 @@
                 <li class="text-link"><a href="../team/" data-target="-1">TEAM</a></li>
                 <li><a href="../" data-target="0"><img src="../img/GritLogo.svg" alt="grit logo"/></a></li>
                 <li class="text-link"><a href="../index.php#about" data-target="0">ABOUT</a></li>
-                <li class="text-link active"><span>CONTACT</span></li>
+                <li class="text-link active contact-link"><span>CONTACT</span></li>
             </ul>
             </nav>
             <a href="../index.php" class="mobile logo"><img src="../img/GritLogo.svg" alt="grit logo"/></a>
@@ -53,7 +53,7 @@
                     <li><a href="../product/">PRODUCT</a></li>
                     <li><a href="../team/">TEAM</a></li> 
                     <li><a href="../index.php#about">ABOUT</a></li>
-                    <li><a href="">CONTACT</a></li> 
+                    <li><a href="" class="contact-link">CONTACT</a></li> 
                 </ul>
             </nav>
         </header>

@@ -38,7 +38,7 @@
               <li class="text-link"><a href="team/" data-target="-1">TEAM</a></li>
               <li><img src="img/GritLogo.svg" alt="grit logo"/></li>
               <li class="text-link"><a href="#about"><span>ABOUT</span></a></li>
-              <li class="text-link"><a href="contact/" data-target="1">CONTACT</a></li>
+              <li class="text-link contact-link"><a href="contact/" data-target="1">CONTACT</a></li>
           </ul>
           </nav>
          <a href="" class="mobile logo"><img src="img/GritLogo.svg" alt="grit logo"/></a>
@@ -53,7 +53,7 @@
                   <li><a href="product/" class="product-link">PRODUCT</a></li>
                   <li><a href="team/">TEAM</a></li> 
                   <li><a href="#about">ABOUT</a></li>
-                  <li><a href="contact/">CONTACT</a></li> 
+                  <li><a href="contact/" class="contact-link">CONTACT</a></li> 
               </ul>
           </nav>        
           </header>
@@ -67,8 +67,8 @@
         
         <section class="intro">
         	<div class="intro-wrap">
-                <h2>In the world of mental health, transcending barriers like stigma and access allow people to get the support they need, when they need it.</h2>
-                <p class="link-curtain">Technology has the power to establish a new set of norms on the fundamental ways people connect to information to each other. It’s the type of convergence that empowers individuals to make their lives or the lives of those around them healthier - grittier - worthier. </p>
+                <h2>Grit Digital Health. Leveraging the power of innovation, creativity, and digital to create tools that are relatable and accessible.</h2>
+                <!--<p class="link-curtain">Technology has the power to establish a new set of norms on the fundamental ways people connect to information to each other. It’s the type of convergence that empowers individuals to make their lives or the lives of those around them healthier - grittier - worthier. </p>-->
             </div>
         </section>
         <section class="YOU product-feature">
@@ -78,21 +78,22 @@
                 <div class="right">
             	<div class="right-wrap">
                     <div class="spacer"></div>
-                    <h4>INTRODUCING YOU</h4>
-                    <p>A dynamic digital resource designed to help college students and campuses thrive.</p>
-                    <a href="product/" class="button">More about YOU</a>
+                    <h4>INTRODUCING THE YOU PORTAL</h4>
+                    <p>A portal that becomes as unique as every student in order to help students SUCCEED, THRIVE and MATTER. An exceptional college experience begins with YOU.</p>
+                    <a href="product/" class="button" id="more">More about YOU</a>
                 </div>
             </div>
         </section>        
         <section class="grid">
             <div class="hero"></div>
             <div class="support1"></div
-            ><div class="support2"><img src="img/caclogo-green.svg" alt="cactus logo" /></div>
+            ><div class="support2"></div>
         </section>
     	<section class="about" id="about">
     		<div>
-                <p class="link-curtain"><strong>Grown from the same minds at <a href="http://www.cactusdenver.com" target="_blank">Cactus Communications</a>,</strong> Grit Digital Health is an extension for the pillars of health, wellness and technology to thrive off of. </p>
-                <p class="link-curtain">With insight from Cactus’ international suicide prevention campaign, <a href="http://www.mantherapy.org" target="_blank">Man Therapy,</a> Grit delves digitally into our lives with the understanding that mental health is never one-size-fits-all.</p>
+                <p class="link-curtain">Grit Digital Health is a human-centric business comprised of specialists in behavioral health, wellness, technology and marketing communications. </p>
+                <p class="link-curtain">In the world of mental health, transcending barriers like stigma and access allow people to get the support they need, when they need it. </p>
+                <p class="link-curtain">Technology has the power to establish a new set of norms on the fundamental ways people connect to information and to each other. It’s the type of convergence that empowers individuals to make their lives and the lives of those around them healthier - grittier - worthier.</p>
                 <!--<a href="" class="button">Learn More</a>-->
       		</div>
        </section>

@@ -335,9 +335,7 @@ section.intro{
 	}
 	h2{
 		font-size:30px;
-		padding-bottom:25px;
 		line-height: 40px;
-		border-bottom:#d8d8d8 1px solid; 
 		max-width:700px;		
 	}
 
@@ -445,12 +443,39 @@ section.product-feature{
 	padding:125px 0px 125px;
 	clear:both;
 	
+	img.drop{
+			@include translateY(-50px);
+		}
+	img.drop.active{
+		opacity:1;
+		@include translateY(0px);
+	}
+	img.slide-left{
+		@include translateX(50px);
+	}
+	img.slide-left.active{
+		opacity:1;
+		@include translateX(0px);
+	}
+	
+	img.slide-right{
+		opacity:1;
+		@include translateX(-50px);
+	}
+	
+	img.slide-right.active{
+		opacity:1;
+		@include translateX(0px);
+	}
+	
+	
 	.right{
 		box-sizing: border-box;
 		vertical-align: top;
 		float: right;
 		width: 50%;
 		position:relative;
+		overflow:hidden;
 		p{
 			padding-left:25px;	
 		}
@@ -458,13 +483,8 @@ section.product-feature{
 			width:100%;
 			opacity:0;
 			transition:all ease .65s;	
-			@include translateY(-50px);
-
 		}
-		img.active{
-			opacity:1;
-			@include translateY(0px);
-		}
+		
 	}
 	.left{
 		width:50%;
@@ -477,11 +497,9 @@ section.product-feature{
 			width:100%;
 			opacity:0;
 			transition:all ease .65s;
-			margin-left:-50px;
 		}
 		img.active{
 			opacity:1;
-			@include translateX(50px)
 		}
 		.spacer{
 			left:81px;	
@@ -524,7 +542,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', end
 }
 
 .product-feature:last-of-type {
-	margin-top:-100px;
+    margin-bottom: 50px;
+    margin-top: -150px;
 	h4{
 		padding-top:50px;
 	}
@@ -632,15 +651,21 @@ section.team{
     	margin-top: 3px;
 		vertical-align:top;
 		transition:opacity .25s ease;
+		overflow:hidden;
 		
 		img{
 			width:100%;
 			display:block;
-		}	
+			transition: all 2.2s ease;
+		}
+		img:hover{
+			-webkit-transform: scale(1.07);
+			transform: scale(1.07);	
+		}
 	}
 	.team-member:hover .title-wrapper span{
-		-webkit-animation:lineSlide cubic-bezier(.19,.82,.54,.88) .8s;
-		animation:lineSlide cubic-bezier(.19,.82,.54,.88) .8s;
+		-webkit-animation:lineSlide cubic-bezier(0.29, 0.62, 0.54, 0.88) 0.8s;
+		animation:lineSlide cubic-bezier(0.29, 0.62, 0.54, 0.88) 0.8s;
 	}
 	.member-content{
 		background-color: $color-green;
@@ -872,7 +897,7 @@ section.grid{
 	
 	.hero{
 		width:100%;
-		background-image:url(../img/grid-support.jpg);	
+		background-image:url(../img/grit-whiteboard.jpg);	
 		height:60%;
 		opacity:0;
 		transition: all 0.75s ease;
@@ -887,38 +912,20 @@ section.grid{
 		width:50%;
 		height:40%;
 		opacity:0;
-		background-image:url(../img/grid-hero.jpg);
+		background-image:url(../img/grid-support.jpg);
 		transition: all 0.75s ease .5s;
 		position:absolute;
 		bottom:-4%;
 	}
-	.support1.active{
+	.support1.active,
+	.support2.active{
 		opacity:1;
 		@include translateY(-10%);
 	}
 	.support2{
 		@extend .support1;
-		background-image:none;
-		background-color:$color-grey;
-		text-align:center;
-		vertical-align:top;
+		background-image:url(../img/grit-office-waterfall.jpg);
 		right:0px;
-		opacity:1;
-		bottom:0;
-		img{
-			width:30%;
-			top:60%;
-			@include translateY(-50%);
-			position:relative;
-			max-width:90px;
-			min-width:70px;
-			transition: ease .75s all .5s;
-			opacity:0;
-		}
-		img.active{
-			top:50%;
-			opacity:1;
-		}
 	}
 }
 
@@ -1041,14 +1048,14 @@ footer{
 }
 @-webkit-keyframes lineSlide {
 0% { @include translateX(0); } 
-30% { opacity: 0; } 80% { @include translateX(400px); } 
-81% { @include translateX(-300px); opacity: 0;} 
+30% { opacity: 0; } 80% { @include translateX(200px); } 
+81% { @include translateX(-100px); opacity: 0;} 
 100% { @include translateX(0); opacity: 1;} 
 }
 @keyframes lineSlide {
 0% { @include translateX(0); } 
-30% { opacity: 0; } 80% { @include translateX(400px); } 
-81% { @include translateX(-300px); opacity: 0;} 
+30% { opacity: 0; } 80% { @include translateX(200px); } 
+81% { @include translateX(-100px); opacity: 0;} 
 100% { @include translateX(0); opacity: 1;} 
 }
 
