@@ -229,7 +229,7 @@
 				<h2>Chance<br />Woodward</h2>
 				<div class="line"></div>
 				<h3>Product Manager</h3>
-				<p>To say Chance has a storied background in digital is pedestrian, considering he started his career working right outside MySpace founder Tom Anderson’s office. As Product Manager for Grit digital Health, he brings a depth of experience ranging from interactive OOH and digital production to UX design and 3D development. Chance’s client roster includes heavy-hitters such as Samsung, Kellogg&#39;s, Nintendo, Domino’s, American Express and Kraft. Oh, and he’s won five Cannes Lions along the way, proving his production prowess. Bonus: Chance has a 3-legged cat.</p>
+				<p>To say Chance has a storied background in digital is pedestrian, considering he started his career working right outside MySpace founder Tom Anderson’s office. As Product Manager for Grit Digital Health, he brings a depth of experience ranging from interactive OOH and digital production to UX design and 3D development. Chance’s client roster includes heavy-hitters such as Samsung, Kellogg&#39;s, Nintendo, Domino’s, American Express and Kraft. Oh, and he’s won five Cannes Lions along the way, proving his production prowess. Bonus: Chance has a 3-legged cat.</p>
 			</div>
 		</div>
         <div class="left">
