@@ -35,49 +35,57 @@
                   <h4>YOU in the News</h4>
                   <div>
                   <div class="item-wrap">
-					  <h5>University Business <span>“The Hidden Crisis on Campus”</span></h5>
+					<img src="../img/logo.jpg" />  
+					<h5>University Business <span>“The Hidden Crisis on Campus”</span></h5>
                     <span>November 14, 2016</span>
                     <p>Grit Digital Health's Director of Clinical Programs, Nathaan Demers, Psy.D., explains how technology can be used beyond subsidizing therapy sessions to reach otherwise silently struggling students in this piece published by University Business.</p>
                     <a href="https://www.universitybusiness.com/article/1216-crisis" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>Inside Higher Ed <span>"A Virtual Counselor"</span></h5>
+					<img src="../img/ihe-logo-2018.jpg"/>  
+					<h5>Inside Higher Ed <span>"A Virtual Counselor"</span></h5>
                     <span>October 19, 2016</span>
                     <p>With rising counseling center demands, online platforms like the YOU@CSU portal are helping counseling centers by going upstream to connect students to the right resources at the right time.</p>
                     <a href="https://www.insidehighered.com/news/2016/10/19/colleges-turn-online-text-messaging-services-help-counseling-demand" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>Suicide Prevention Social Media Webcast <span>"Tech Integration in Suicide Prevention Panel"</span></h5>
+					<img src="../img/SPSM-logo.jpg"/>  
+					<h5>Suicide Prevention Social Media Webcast <span>"Tech Integration in Suicide Prevention Panel"</span></h5>
                     <span>September 25, 2016</span>
                     <p>A live panel webcast on SPSMchat.com discussing the integration of digital technologies in suicide prevention featuring Nathaan Demers, Psy.D. - the Grit Digital Health Director of Clinical Programs.</p>
                     <a href="https://spsmchat.com/2016/09/13/doc_demers-joins-an-all-star-spsm-panel-to-chat-about-tech-integration-in-suicide-prevention-92516-8pct/" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>MHealth Intelligence <span>"Using MHealth to Connect With Students in Crisis"</span></h5>
+					<img src="../img/mHealth.jpg" />  
+					<h5>MHealth Intelligence <span>"Using MHealth to Connect With Students in Crisis"</span></h5>
                     <span>September 19, 2016</span>
                     <p>A demonstration of how colleges across the country including Colorado State University, are using digital health platforms like the YOU student well-being portal to help students access behavioral health services.</p>
                     <a href="http://mhealthintelligence.com/news/using-mhealth-to-connect-with-students-in-crisis" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>University Business <span>"Student Wellness Portal Launched"</span></h5>
+					<img src="../img/logo.jpg" />  
+					 <h5>University Business <span>"Student Wellness Portal Launched"</span></h5>
                     <span>September 10, 2016</span>
                     <p>University Business's coverage of the YOU portal launch.</p>
                     <a href="https://www.universitybusiness.com/news/student-wellness-portal-launched" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>The Collegian <span>"Student Demand for Counseling Services Increase, CSU Health Network Expands"</span></h5>
+					<img src="../img/Collegian-logo.png" />  
+					<h5>The Collegian <span>"Student Demand for Counseling Services Increase, CSU Health Network Expands"</span></h5>
                     <span>August 31, 2016</span>
                     <p>An article from The Collegian at Colorado State University detailing how the counseling center is meeting student demand and leveraging the power of YOU@CSU to do so.</p>
                     <a href="http://collegian.com/2016/08/student-demand-for-counseling-services-increase-csu-health-network-expands/" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>Disruptive Women in Healthcare <span>"Finding Commonplace on Digital Spaces for Campus Well-being"</span></h5>
+					<img src="../img/Disruptive-Women.png" />  
+					<h5>Disruptive Women in Healthcare <span>"Finding Commonplace on Digital Spaces for Campus Well-being"</span></h5>
                     <span>August 16, 2016</span>
                     <p>YOU@CSU featured in Anne Hudgens’s post on the Disruptive Women in Health Care blog.</p>
                     <a href="http://www.disruptivewomen.net/2016/08/16/finding-commonplace-on-digital-spaces-for-campus-well-being/" target="_blank" class="button">Read Article</a>
                   </div>
                   <div class="item-wrap">
-					  <h5>Around the Oval <span>"Communicators with a Purpose"</span></h5>
+					<img src="../img/CSU-logo.png" />  
+					<h5>Around the Oval <span>"Communicators with a Purpose"</span></h5>
                     <span>Spring 2016</span>
                     <p>Announcement of the soft launch of YOU@CSU in Around the Oval, CSU’s semi-annual magazine published by the CSU Alumni Association.</p>
                     <a href="https://webcms.colostate.edu/alumni/media/sites/85/2016/04/ATO_Spring_2016-web.pdf" target="_blank" class="button">Read Article</a>

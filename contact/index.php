@@ -1,5 +1,5 @@
    	<?php include '../build/header.php';?>
-        <div class="sceneElement" data-viewport="1">
+        <div class="sceneElement" data-viewport="2">
             <div class="map-element">
                <section class="map">
                     <div id="map"></div>
@@ -9,11 +9,11 @@
                		<div class="contact-wrapper">
                     	<div class="line"></div>
                         <h3>Contact</h3>
+						<p>Contact Grit Digital Health to explore potential partnerships, schedule a demo, inquire about speaking engagements, or just say hello.</p>
                         <p class="link-curtain">
-                            <strong>Chris Antoline</strong><br />
-                            Director of Campus Partnerships<br />
+                            <strong>Grit Digital Health</strong><br />
                             720.407.8920<br />
-                            <a href="mailto:chris@gritdigitalhealth.com">chris@gritdigitalhealth.com</a>
+                            <a href="mailto:inquiries@gritdigitalhealth.com">inquiries@gritdigitalhealth.com</a>
                         </p>
                         <p>
                             2128 15th Street <br/>
@@ -27,4 +27,5 @@
                     </div>
            </section>
            </div>
+		</div>	
    		<?php include '../build/footer.php';?>

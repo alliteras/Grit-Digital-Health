@@ -1,2 +1,4 @@
 DirectoryIndex index.php
 ErrorDocument 404 /404.php
+
+Header set X-Robots-Tag "noindex, nofollow"

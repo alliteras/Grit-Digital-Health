@@ -2,10 +2,9 @@
 	<footer>
    		<div class="newsletter">
             <h4>Keep me up-to-date</h4>
-
             <!-- Begin MailChimp Signup Form -->
             <div id="mc_embed_signup">
-            <form action="//gritdigitalhealth.us12.list-manage.com/subscribe/post?u=32f42af3fbd53a0a8a93a3340&amp;id=c40b190c68" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <form action="//gritdigitalhealth.us12.list-manage.com/subscribe/post?u=32f42af3fbd53a0a8a93a3340&amp;id=8697506316" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
                 <div id="mc_embed_signup_scroll">
                 
             <div class="mc-field-group">
@@ -20,9 +19,7 @@
                 </div>
             </form>
             </div>
-            
             <!--End mc_embed_signup-->
-
         </div>
 		<ul>
             <li class="text-link"><a href="/product/">PRODUCT</a></li>

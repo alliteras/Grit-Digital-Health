@@ -1,21 +1,31 @@
-<!--Meta data to be inported in the header for Grit - You at College-->   	
+<!--Meta data to be inported in the header for Grit Digital Health-->   	
     <?php //variables
 		$url = $_SERVER["REQUEST_URI"]; 
 		$prod =  "/product/";
 		$team = "/team/";
 		$contact = "/contact/";
+		$about = "/about/";
+		$news = "/newsroom/";
 	?>
     <meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<?php /*?>remove when we go live<?php */?>
+	<meta name="robots" content="noindex,nofollow">
+
      <?php
 		if($url === $prod) {
-			echo "<meta property='og:title' content='Designed to build resilience and campus connections | YOU at College '>" . $pos; 
+			echo "<meta property='og:title' content='Tools that build grit and resilience | Grit Digital Health'>" . $pos; 
 		}else if($url === $team){
-			echo "<meta property='og:title' content='Created by experts in behavioral health, wellness, technology, and marketing communications | YOU at College'>" . $pos; 
+			echo "<meta property='og:title' content='CCreated by experts in behavioral health, wellness, technology and marketing communications | Grit Digital Health'>" . $pos; 
 		}else if($url === $contact){
-			echo "<meta property='og:title' content='Contact us to request a demo | YOU at College'>" . $pos; 
+			echo "<meta property='og:title' content='Inquire about our customized solutions | Grit Digital Health'>" . $pos; 
 		}else if($url === $home){
-			echo "<meta property='og:title' content='YOU at College | The tool to support student success and well-being'>" . $pos; 
+			echo "<meta property='og:title' content='Grit Digital Health | Technology that helps people thrive'>" . $pos; 
+		}else if($url === $news){
+			echo "<meta property='og:title' content='Inquire about our customized solutions | Grit Digital Health'>" . $pos; 
+		}else if($url === $about){
+			echo "<meta property='og:title' content='Healthier. Grittier. Worthier. | Grit Digital Health'>" . $pos; 
 		}
     ?> 
     <meta property="og:title" content="Grit Digital Health">
@@ -26,13 +36,17 @@
     <meta property="og:image" content="http://gritdigitalhealth.com/img/product-hero-inline.jpg">
     <?php
 		if($url === $prod) {
-			echo "<title>Designed to build resilience and campus connections | YOU at College </title>" . $pos; 
+			echo "<title>Tools that build grit and resilience | Grit Digital Health</title>" . $pos; 
 		}else if($url === $team){
-			echo "<title>Created by experts in behavioral health, wellness, technology, and marketing communications | YOU at College</title>" . $pos; 
+			echo "<title>Created by experts in behavioral health, wellness, technology and marketing communications | Grit Digital Health</title>" . $pos; 
 		}else if($url === $contact){
-			echo "<title>Contact us to request a demo | YOU at College </title>" . $pos; 
+			echo "<title>Inquire about our customized solutions | Grit Digital Health </title>" . $pos; 
+		}else if($url === $about){
+			echo "<title>Healthier. Grittier. Worthier. | Grit Digital Health </title>" . $pos; 
+		}else if($url === $news){
+			echo "<title>Inquire about our customized solutions | Grit Digital Health </title>" . $pos; 
 		}else{
-			echo "<title>YOU at College | The tool to support student success and well-being</title>" . $pos; 
+			echo "<title>Grit Digital Health | Technology that helps people thrive</title>" . $pos; 
 		}
     ?> 
     <link rel="icon" href="favicon/favicon.ico" type="image/x-icon"/>
