@@ -7,7 +7,7 @@
 		"uuidString": "4C60CE5E-AC98-430C-BCFA-BBE546498C87"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.htaccess": {
 		"cB": 0,
@@ -453,6 +453,7 @@
 	"\/img\/Andrew_Detail.jpg": {
 		"ft": 16384,
 		"iS": 119187,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Andrew_Detail.jpg",
 		"oF": 0,
@@ -463,6 +464,7 @@
 	"\/img\/Andrew_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 41036,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Andrew_Thumb.jpg",
 		"oF": 0,
@@ -484,6 +486,7 @@
 	"\/img\/Chance_Detail.jpg": {
 		"ft": 16384,
 		"iS": 288301,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Chance_Detail.jpg",
 		"oF": 0,
@@ -494,6 +497,7 @@
 	"\/img\/Chance_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 67756,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Chance_Thumb.jpg",
 		"oF": 0,
@@ -548,6 +552,7 @@
 	"\/img\/Doug_Detail.jpg": {
 		"ft": 16384,
 		"iS": 333511,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Doug_Detail.jpg",
 		"oF": 0,
@@ -558,6 +563,7 @@
 	"\/img\/Doug_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 93226,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Doug_Thumb.jpg",
 		"oF": 0,
@@ -579,6 +585,7 @@
 	"\/img\/Frank_Detail.jpg": {
 		"ft": 16384,
 		"iS": 239506,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Frank_Detail.jpg",
 		"oF": 0,
@@ -589,6 +596,7 @@
 	"\/img\/Frank_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 57640,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Frank_Thumb.jpg",
 		"oF": 0,
@@ -599,6 +607,7 @@
 	"\/img\/grid-support.jpg": {
 		"ft": 16384,
 		"iS": 42071,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/grid-support.jpg",
 		"oF": 0,
@@ -609,6 +618,7 @@
 	"\/img\/grit-digital-health-you-portal-mobile.jpg": {
 		"ft": 16384,
 		"iS": 102602,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/grit-digital-health-you-portal-mobile.jpg",
 		"oF": 0,
@@ -630,6 +640,7 @@
 	"\/img\/grit-digital-health-you-portal.jpg": {
 		"ft": 16384,
 		"iS": 444101,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/grit-digital-health-you-portal.jpg",
 		"oF": 0,
@@ -657,6 +668,7 @@
 	"\/img\/hero.jpg": {
 		"ft": 16384,
 		"iS": 213505,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/hero.jpg",
 		"oF": 0,
@@ -689,6 +701,7 @@
 	"\/img\/home_skylight.jpg": {
 		"ft": 16384,
 		"iS": 283693,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/home_skylight.jpg",
 		"oF": 0,
@@ -699,6 +712,7 @@
 	"\/img\/homepage-about-right.jpg": {
 		"ft": 16384,
 		"iS": 248230,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/homepage-about-right.jpg",
 		"oF": 0,
@@ -709,808 +723,13 @@
 	"\/img\/ihe-logo-2018.jpg": {
 		"ft": 16384,
 		"iS": 10154,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/ihe-logo-2018.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
 		"q": 100
-		},
-	"\/img\/img\/about-hero.jpg": {
-		"ft": 16384,
-		"iS": 302133,
-		"oA": 0,
-		"oAP": "\/img\/img\/about-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Andrew_Detail.jpg": {
-		"ft": 16384,
-		"iS": 119187,
-		"oA": 0,
-		"oAP": "\/img\/img\/Andrew_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Andrew_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 41036,
-		"oA": 0,
-		"oAP": "\/img\/img\/Andrew_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/arrow-right.png": {
-		"ft": 32768,
-		"iS": 258,
-		"oA": 0,
-		"oAP": "\/img\/img\/arrow-right.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Brit_Detail.jpg": {
-		"ft": 16384,
-		"iS": 138930,
-		"oA": 0,
-		"oAP": "\/img\/img\/Brit_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Brit_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 44362,
-		"oA": 0,
-		"oAP": "\/img\/img\/Brit_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/caclogo-green.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/caclogo-green.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/img\/Chance_Detail.jpg": {
-		"ft": 16384,
-		"iS": 288301,
-		"oA": 0,
-		"oAP": "\/img\/img\/Chance_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Chance_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 67756,
-		"oA": 0,
-		"oAP": "\/img\/img\/Chance_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Chris_Detail.jpg": {
-		"ft": 16384,
-		"iS": 176938,
-		"oA": 0,
-		"oAP": "\/img\/img\/Chris_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Chris_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 43881,
-		"oA": 0,
-		"oAP": "\/img\/img\/Chris_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/close.png": {
-		"ft": 32768,
-		"iS": 738,
-		"oA": 0,
-		"oAP": "\/img\/img\/close.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Collegian-logo.png": {
-		"ft": 32768,
-		"iS": 25634,
-		"oA": 0,
-		"oAP": "\/img\/img\/Collegian-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/CSU-logo.png": {
-		"ft": 32768,
-		"iS": 21289,
-		"oA": 0,
-		"oAP": "\/img\/img\/CSU-logo.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Disruptive-Women.png": {
-		"ft": 32768,
-		"iS": 29674,
-		"oA": 0,
-		"oAP": "\/img\/img\/Disruptive-Women.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Doug_Detail.jpg": {
-		"ft": 16384,
-		"iS": 333511,
-		"oA": 0,
-		"oAP": "\/img\/img\/Doug_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Doug_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 93226,
-		"oA": 0,
-		"oAP": "\/img\/img\/Doug_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/facebook.png": {
-		"ft": 32768,
-		"iS": 288,
-		"oA": 0,
-		"oAP": "\/img\/img\/facebook.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Frank_Detail.jpg": {
-		"ft": 16384,
-		"iS": 239506,
-		"oA": 0,
-		"oAP": "\/img\/img\/Frank_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Frank_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 57640,
-		"oA": 0,
-		"oAP": "\/img\/img\/Frank_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grid-hero.jpg": {
-		"ft": 16384,
-		"iS": 168931,
-		"oA": 0,
-		"oAP": "\/img\/img\/grid-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grid-support.jpg": {
-		"ft": 16384,
-		"iS": 42071,
-		"oA": 0,
-		"oAP": "\/img\/img\/grid-support.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grit-digital-health-you-portal-mobile.png": {
-		"ft": 32768,
-		"iS": 98668,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit-digital-health-you-portal-mobile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/grit-digital-health-you-portal.jpg": {
-		"ft": 16384,
-		"iS": 905586,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit-digital-health-you-portal.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grit-main-confrence.jpg": {
-		"ft": 16384,
-		"iS": 37169,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit-main-confrence.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grit-office-waterfall.jpg": {
-		"ft": 16384,
-		"iS": 83632,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit-office-waterfall.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/grit-whiteboard.jpg": {
-		"ft": 16384,
-		"iS": 160060,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit-whiteboard.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/GRIT_Logo-4C.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/img\/GRIT_Logo-4C.zip",
-		"oF": 0
-		},
-	"\/img\/img\/grit_product-mobile.png": {
-		"ft": 32768,
-		"iS": 250889,
-		"oA": 0,
-		"oAP": "\/img\/img\/grit_product-mobile.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Grit_YOU_Brochure_COMP.png": {
-		"ft": 32768,
-		"iS": 152630,
-		"oA": 0,
-		"oAP": "\/img\/img\/Grit_YOU_Brochure_COMP.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/GritLogo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/GritLogo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/img\/hero.jpg": {
-		"ft": 16384,
-		"iS": 213505,
-		"oA": 0,
-		"oAP": "\/img\/img\/hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/home-grit-about-lrg.png": {
-		"ft": 32768,
-		"iS": 193383,
-		"oA": 0,
-		"oAP": "\/img\/img\/home-grit-about-lrg.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/home-grit-about.png": {
-		"ft": 32768,
-		"iS": 17323,
-		"oA": 0,
-		"oAP": "\/img\/img\/home-grit-about.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/home-grit-products.png": {
-		"ft": 32768,
-		"iS": 165816,
-		"oA": 0,
-		"oAP": "\/img\/img\/home-grit-products.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/home_skylight.jpg": {
-		"ft": 16384,
-		"iS": 1361437,
-		"oA": 0,
-		"oAP": "\/img\/img\/home_skylight.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/homepage-about-right.jpg": {
-		"ft": 16384,
-		"iS": 248230,
-		"oA": 0,
-		"oAP": "\/img\/img\/homepage-about-right.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/ihe-logo-2018.jpg": {
-		"ft": 16384,
-		"iS": 10154,
-		"oA": 0,
-		"oAP": "\/img\/img\/ihe-logo-2018.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/instagram.png": {
-		"ft": 32768,
-		"iS": 456,
-		"oA": 0,
-		"oAP": "\/img\/img\/instagram.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Joe_Detail.jpg": {
-		"ft": 16384,
-		"iS": 116411,
-		"oA": 0,
-		"oAP": "\/img\/img\/Joe_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Joe_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 44322,
-		"oA": 0,
-		"oAP": "\/img\/img\/Joe_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Kyle_Detail.jpg": {
-		"ft": 16384,
-		"iS": 119555,
-		"oA": 0,
-		"oAP": "\/img\/img\/Kyle_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Kyle_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 46165,
-		"oA": 0,
-		"oAP": "\/img\/img\/Kyle_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/logo.jpg": {
-		"ft": 16384,
-		"iS": 16149,
-		"oA": 0,
-		"oAP": "\/img\/img\/logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/ManTherapy-logo-wide.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/ManTherapy-logo-wide.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/img\/ManTherapy-Logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/ManTherapy-Logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/img\/marker.png": {
-		"ft": 32768,
-		"iS": 1137,
-		"oA": 0,
-		"oAP": "\/img\/img\/marker.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/mHealth.jpg": {
-		"ft": 16384,
-		"iS": 4302,
-		"oA": 0,
-		"oAP": "\/img\/img\/mHealth.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Mimi_Detail.jpg": {
-		"ft": 16384,
-		"iS": 158294,
-		"oA": 0,
-		"oAP": "\/img\/img\/Mimi_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Mimi_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 45304,
-		"oA": 0,
-		"oAP": "\/img\/img\/Mimi_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/MT-productfeature.png": {
-		"ft": 32768,
-		"iS": 330626,
-		"oA": 0,
-		"oAP": "\/img\/img\/MT-productfeature.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Nathaan_Detail.jpg": {
-		"ft": 16384,
-		"iS": 138559,
-		"oA": 0,
-		"oAP": "\/img\/img\/Nathaan_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Nathaan_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 159765,
-		"oA": 0,
-		"oAP": "\/img\/img\/Nathaan_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Nolan_Detail.jpg": {
-		"ft": 16384,
-		"iS": 448218,
-		"oA": 0,
-		"oAP": "\/img\/img\/Nolan_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Nolan_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 105538,
-		"oA": 0,
-		"oAP": "\/img\/img\/Nolan_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Norm_Detail.jpg": {
-		"ft": 16384,
-		"iS": 94611,
-		"oA": 0,
-		"oAP": "\/img\/img\/Norm_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Norm_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 48213,
-		"oA": 0,
-		"oAP": "\/img\/img\/Norm_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Paige_Detail.jpg": {
-		"ft": 16384,
-		"iS": 243404,
-		"oA": 0,
-		"oAP": "\/img\/img\/Paige_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Paige_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 86010,
-		"oA": 0,
-		"oAP": "\/img\/img\/Paige_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/press-kit-hero.jpg": {
-		"ft": 16384,
-		"iS": 95276,
-		"oA": 0,
-		"oAP": "\/img\/img\/press-kit-hero.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/press-kit-hero2.jpg": {
-		"ft": 16384,
-		"iS": 414519,
-		"oA": 0,
-		"oAP": "\/img\/img\/press-kit-hero2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/product-feature-mt.png": {
-		"ft": 32768,
-		"iS": 311561,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-feature-mt.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/product-feature.jpg": {
-		"ft": 16384,
-		"iS": 246536,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-feature.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/product-feature.png": {
-		"ft": 32768,
-		"iS": 327453,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-feature.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/product-hero-inline.jpg": {
-		"ft": 16384,
-		"iS": 345659,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-hero-inline.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/product-hero-inline_v2.jpg": {
-		"ft": 16384,
-		"iS": 175608,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-hero-inline_v2.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/product-hero-MT.png": {
-		"ft": 32768,
-		"iS": 91438,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-hero-MT.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/product-hero-YOU.png": {
-		"ft": 32768,
-		"iS": 81205,
-		"oA": 0,
-		"oAP": "\/img\/img\/product-hero-YOU.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/products-home.png": {
-		"ft": 32768,
-		"iS": 207054,
-		"oA": 0,
-		"oAP": "\/img\/img\/products-home.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/Ross_Detail.jpg": {
-		"ft": 16384,
-		"iS": 162937,
-		"oA": 0,
-		"oAP": "\/img\/img\/Ross_Detail.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/Ross_Thumb.jpg": {
-		"ft": 16384,
-		"iS": 63441,
-		"oA": 0,
-		"oAP": "\/img\/img\/Ross_Thumb.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/SPSM-logo.jpg": {
-		"ft": 16384,
-		"iS": 14013,
-		"oA": 0,
-		"oAP": "\/img\/img\/SPSM-logo.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/twitter.png": {
-		"ft": 32768,
-		"iS": 455,
-		"oA": 0,
-		"oAP": "\/img\/img\/twitter.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/YOU-Lockup-Wide.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/YOU-Lockup-Wide.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/img\/img\/you-reality-check.jpg": {
-		"ft": 16384,
-		"iS": 280692,
-		"oA": 0,
-		"oAP": "\/img\/img\/you-reality-check.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/img\/img\/YOU_Triad.png": {
-		"ft": 32768,
-		"iS": 21453,
-		"oA": 0,
-		"oAP": "\/img\/img\/YOU_Triad.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/img\/img\/YouLogo.eps": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/img\/img\/YouLogo.eps",
-		"oF": 0
-		},
-	"\/img\/img\/YouLogo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/img\/img\/YouLogo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
 		},
 	"\/img\/instagram.png": {
 		"ft": 32768,
@@ -1526,6 +745,7 @@
 	"\/img\/Joe_Detail.jpg": {
 		"ft": 16384,
 		"iS": 116411,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Joe_Detail.jpg",
 		"oF": 0,
@@ -1536,6 +756,7 @@
 	"\/img\/Joe_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 44322,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Joe_Thumb.jpg",
 		"oF": 0,
@@ -1546,6 +767,7 @@
 	"\/img\/logo.jpg": {
 		"ft": 16384,
 		"iS": 16149,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/logo.jpg",
 		"oF": 0,
@@ -1587,6 +809,7 @@
 	"\/img\/mHealth.jpg": {
 		"ft": 16384,
 		"iS": 4302,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/mHealth.jpg",
 		"oF": 0,
@@ -1597,6 +820,7 @@
 	"\/img\/Mimi_Detail.jpg": {
 		"ft": 16384,
 		"iS": 158294,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Mimi_Detail.jpg",
 		"oF": 0,
@@ -1607,6 +831,7 @@
 	"\/img\/Mimi_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 45304,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Mimi_Thumb.jpg",
 		"oF": 0,
@@ -1639,6 +864,7 @@
 	"\/img\/Nathaan_Detail.jpg": {
 		"ft": 16384,
 		"iS": 138559,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Nathaan_Detail.jpg",
 		"oF": 0,
@@ -1646,9 +872,21 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/img\/Nathaan_Thumb.jpg": {
+		"ft": 16384,
+		"iS": 41826,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/img\/Nathaan_Thumb.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/img\/Nolan_Detail.jpg": {
 		"ft": 16384,
 		"iS": 448218,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Nolan_Detail.jpg",
 		"oF": 0,
@@ -1659,6 +897,7 @@
 	"\/img\/Nolan_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 105538,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Nolan_Thumb.jpg",
 		"oF": 0,
@@ -1669,6 +908,7 @@
 	"\/img\/Norm_Detail.jpg": {
 		"ft": 16384,
 		"iS": 94611,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Norm_Detail.jpg",
 		"oF": 0,
@@ -1679,6 +919,7 @@
 	"\/img\/Norm_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 48213,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Norm_Thumb.jpg",
 		"oF": 0,
@@ -1689,6 +930,7 @@
 	"\/img\/Paige_Detail.jpg": {
 		"ft": 16384,
 		"iS": 288637,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Paige_Detail.jpg",
 		"oF": 0,
@@ -1699,6 +941,7 @@
 	"\/img\/Paige_Thumb.jpg": {
 		"ft": 16384,
 		"iS": 93811,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/Paige_Thumb.jpg",
 		"oF": 0,
@@ -1709,6 +952,7 @@
 	"\/img\/press-kit-hero2.jpg": {
 		"ft": 16384,
 		"iS": 435331,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/press-kit-hero2.jpg",
 		"oF": 0,
@@ -1730,6 +974,7 @@
 	"\/img\/product-hero-inline_v2.jpg": {
 		"ft": 16384,
 		"iS": 175608,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/product-hero-inline_v2.jpg",
 		"oF": 0,
@@ -1773,6 +1018,7 @@
 	"\/img\/SPSM-logo.jpg": {
 		"ft": 16384,
 		"iS": 14013,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/SPSM-logo.jpg",
 		"oF": 0,
@@ -1785,6 +1031,28 @@
 		"iS": 455,
 		"oA": 0,
 		"oAP": "\/img\/twitter.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/USA-Today_college.png": {
+		"ft": 32768,
+		"iS": 5147,
+		"oA": 0,
+		"oAP": "\/img\/USA-Today_college.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/img\/XM-logo.png": {
+		"ft": 32768,
+		"iS": 2673,
+		"oA": 0,
+		"oAP": "\/img\/XM-logo.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
@@ -1804,6 +1072,7 @@
 	"\/img\/you-reality-check.jpg": {
 		"ft": 16384,
 		"iS": 432264,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/img\/you-reality-check.jpg",
 		"oF": 0,
@@ -1912,6 +1181,13 @@
 		"oAP": "\/newsroom\/index.php",
 		"oF": 0
 		},
+	"\/press-kit\/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/press-kit\/index.php",
+		"oF": 0
+		},
 	"\/product\/index.php": {
 		"cB": 0,
 		"ft": 8192,
@@ -2001,7 +1277,8 @@
 	"creationDate": 536873104,
 	"displayValue": "gritdigital",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-confession"
+	"iconImageName": "meme-confession",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3804,6 +3081,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
